@@ -2,8 +2,8 @@
 
 A simple script that displays the current status of mullvad (connected/disconnected) using font awesome icons.
 
-![connected](screenshots/connected.png)
-![disconnected](screenshots/disconnected.png)
+![connected](./screenshots/connected.jpg)
+![disconnected](./screenshots/disconnected.jpg)
 
 
 ## Dependencies
