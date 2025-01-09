@@ -2,6 +2,7 @@
 
 set -e 
 
+{
 status=$(mullvad status | head -n1 | cut -d' ' -f1)
 condition="Connected"
 
@@ -10,6 +11,6 @@ then
 	printf   '%s' '%{F#81A1C1}'
 else
 	printf   '%s' '%{F#BF616A}'
+
 fi
-
-
+} 2>/dev/null
